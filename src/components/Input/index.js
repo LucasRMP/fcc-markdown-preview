@@ -6,7 +6,7 @@ import { faEraser } from '@fortawesome/free-solid-svg-icons';
 
 function Input({ setInput }) {
   const [text, setText] = useState(
-    '# Header\n\n## Sub header\n\n[Repo](https://github.com/LucasRMP/fcc-markdown-preview)\n\n- List 1\n- List 2\n\n> Blockquote\n\n![image](http://placekitten.com/200/300)\n\n**Bolded text**\n\n'
+    '# Header\n\n## Sub header\n\n[Repo](https://github.com/LucasRMP/fcc-markdown-preview)\n\n- List 1\n- List 2\n\n> Blockquote\n\n![image](http://placekitten.com/200/300)\n\n**Bolded text**\n\n\`\`\`\nthis is code\n\`\`\`\nThis is a `inline code block`'
   );
 
   useEffect(() => {
