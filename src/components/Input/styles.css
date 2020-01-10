@@ -31,7 +31,7 @@
   outline: none;
   position: fixed;
   left: 0.5%;
-  top: 91.5%;
+  top: 89%;
   align-self: center;
   width: 75px;
 
@@ -49,5 +49,6 @@
 }
 
 #clear-btn:hover {
+  display: block;
   opacity: 0.5;
 }
